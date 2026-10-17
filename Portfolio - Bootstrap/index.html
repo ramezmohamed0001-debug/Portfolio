@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ENG. ABU RAMEZ | Senior Telecom & Network Infrastructure Engineer</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom Premium Dark Gold Theme -->
+    <style>
+        :root {
+            --bg-dark: #121212;
+            --bg-card: #1e1e1e;
+            --gold-primary: #d4af37;
+            --gold-hover: #b5922f;
+            --text-muted: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg-dark) !important;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .text-gold { color: var(--gold-primary) !important; }
+        .bg-gold { background-color: var(--gold-primary) !important; color: #000 !important; }
+
+        .btn-gold {
+            background-color: var(--gold-primary);
+            color: #121212;
+            font-weight: 600;
+            border: none;
+        }
+        .btn-gold:hover { background-color: var(--gold-hover); color: #000; }
+
+        .btn-outline-gold {
+            border: 2px solid var(--gold-primary);
+            color: var(--gold-primary);
+            font-weight: 600;
+        }
+        .btn-outline-gold:hover { background-color: var(--gold-primary); color: #121212; }
+
+        .card-dark {
+            background-color: var(--bg-card);
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .card-dark:hover { transform: translateY(-5px); border-color: var(--gold-primary); }
+
+        .navbar { background-color: #0a0a0a !important; border-bottom: 1px solid #222; }
+        .nav-link { color: #ccc !important; font-weight: 500; }
+        .nav-link:hover { color: var(--gold-primary) !important; }
+
+        /* تقريب احترافي لصورتك الشخصية من مجلد الملفات المحلي */
+        .profile-img-frame {
+            width: 240px;
+            height: 240px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 4px solid var(--gold-primary);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+            margin: 0 auto;
+        }
+
+        .profile-img-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 20%;
+            transform: scale(1.15);
+        }
+
+        .badge-gold {
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--gold-primary);
+            border: 1px solid var(--gold-primary);
+        }
+
+        footer { background-color: #080808 !important; border-top: 1px solid #222; }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#home">
+            <span class="text-gold">ABU RAMEZ</span> <span class="fs-6 text-white-50">| ENG</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <div class="navbar-nav ms-auto gap-2">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About & Track Record</a>
+                <a href="#skills" class="nav-link">Core Competencies</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-7 text-center text-md-start">
+                <span class="badge badge-gold mb-3 p-2 px-3 rounded-pill">
+                    <i class="bi bi-award-fill me-1"></i> 5+ Years Industry Experience
+                </span>
+                <h1 class="display-4 fw-bold mb-2">
+                    Welcome — I am <span class="text-gold">RAMEZ</span>
+                </h1>
+                <h2 class="h4 text-white-50 mb-4">
+                    Senior Telecommunications & Enterprise Network Infrastructure Engineer
+                </h2>
+                <p class="lead text-secondary mb-4 fs-6">
+                    Over 5 years of hands-on expertise collaborating with engineering teams to design, deploy, and interconnect multi-branch networks, factory production infrastructures, commercial POS point-of-sale systems, and secure telecom networks.
+                </p>
+                <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+                    <a href="#projects" class="btn btn-gold btn-lg px-4">
+                        <i class="bi bi-diagram-3 me-2"></i> Explore Projects
+                    </a>
+                    <a href="#contact" class="btn btn-outline-gold btn-lg px-4">
+                        <i class="bi bi-envelope-fill me-1"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5 text-center mt-5 mt-md-0">
+                <div class="profile-img-frame">
+                    <!-- المسار المحلي الأصلي لصورتك داخل فولدر المشروع -->
+                    <img src="./assets/img/person.jpg" alt="RAMEZ Profile">
+                </div>
+                <div class="mt-4">
+                    <span class="badge bg-dark text-gold border border-gold p-2 px-3 fs-6">
+                        <i class="bi bi-cpu me-2"></i> Senior Network & Telecom Engineer
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About & Real-World Track Record -->
+<section id="about" class="py-5" style="background-color: #161616;">
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                About & <span class="text-gold">Track Record</span>
+            </h2>
+            <p class="text-secondary">5+ Years of Real-World Enterprise Implementation & Multi-Branch Interconnection</p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+            <div class="col-md-6">
+                <div class="card card-dark h-100 p-4">
+                    <div class="text-gold display-6 mb-3">
+                        <i class="bi bi-diagram-3-fill"></i>
+                    </div>
+                    <h4 class="fw-bold text-white mb-3">Professional Background</h4>
+                    <p class="text-secondary">
+                        With over 5 years of field experience working alongside senior engineering teams, I have architected and deployed complete operating network systems for industrial factories, major supermarket chains, and commercial retail POS networks.
+                    </p>
+                    <p class="text-secondary mb-0">
+                        Specialized in multi-location branch connectivity—linking cafes, stores, and regional offices across different cities via secure IPSec VPN tunnels, load balanced WAN links, and unified IP PBX telephony.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-dark h-100 p-4">
+                    <h5 class="text-gold mb-4 border-bottom border-secondary pb-2">
+                        <i class="bi bi-person-lines-fill me-2"></i> Personal Details
+                    </h5>
+                    <div class="d-flex flex-column gap-3 fs-6">
+                        <div>
+                            <i class="bi bi-person-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Name:</strong> <span class="text-secondary">ABU RAMEZ</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-telephone-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Phone:</strong> <a href="tel:+201500066331" class="text-gold text-decoration-none fw-bold">+201500066331</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-envelope-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Email:</strong> <span class="text-secondary">ramezmohamed0001@gmail.com</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-geo-alt-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Location:</strong> <span class="text-secondary">Mansoura, Egypt</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-briefcase-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Experience:</strong> <span class="text-secondary">5+ Years in Enterprise Networks & Telecom</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-hdd-network-fill text-gold me-2 fs-5"></i>
+                            <strong class="text-white">Role:</strong> <span class="text-secondary">Telecom, Network & Server Infrastructure Specialist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comprehensive Core Competencies -->
+<section id="skills" class="py-5">
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Core <span class="text-gold">Competencies & Skills</span>
+            </h2>
+            <p class="text-secondary">Full-spectrum technical capabilities across Routing, Security, Telecom, Servers & Automation</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-dark h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-router-fill fs-2 text-gold me-3"></i>
+                        <h5 class="fw-bold text-white mb-0">Network Fundamentals & Routing</h5>
+                    </div>
+                    <ul class="text-secondary mb-0 ps-3 small">
+                        <li class="mb-2">Deep mastery of <strong>OSI Model</strong> & TCP/IP stack.</li>
+                        <li class="mb-2">Dynamic Routing Protocols: <strong>OSPF, BGP</strong>.</li>
+                        <li class="mb-2">Advanced Switching & <strong>VLAN Segmentation</strong>.</li>
+                        <li>Multi-vendor Hardware: <strong>Cisco, MikroTik, Huawei</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-dark h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-shield-lock-fill fs-2 text-gold me-3"></i>
+                        <h5 class="fw-bold text-white mb-0">Network Security</h5>
+                    </div>
+                    <ul class="text-secondary mb-0 ps-3 small">
+                        <li class="mb-2">Next-Gen Firewalls: <strong>Fortinet, Palo Alto</strong>.</li>
+                        <li class="mb-2">Secure Interconnection via <strong>IPSec & SSL VPNs</strong>.</li>
+                        <li class="mb-2">Authentication & Access Control: <strong>RADIUS, TACACS+</strong>.</li>
+                        <li>Hardening, Anti-DDoS & Cyber Attack Mitigation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card card-dark h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-broadcast-pin fs-2 text-gold me-3"></i>
+                        <h5 class="fw-bold text-white mb-0">Telecom & Infrastructure</h5>
+                    </div>
+                    <ul class="text-secondary mb-0 ps-3 small">
+                        <li class="mb-2">Microwave Backhaul & Point-to-Point Wireless links.</li>
+                        <li class="mb-2"><strong>VoIP Systems</strong> & Enterprise IP Telephony (IP-PBX).</li>
+                        <li class="mb-2">Fiber Optics Networks: <strong>FTTH & GPON</strong> architecture.</li>
+                        <li>Physical Cabling, Racks & Data Center Layout.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+                <div class="card card-dark h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-server fs-2 text-gold me-3"></i>
+                        <h5 class="fw-bold text-white mb-0">Server Admin, Cloud & Automation</h5>
+                    </div>
+                    <ul class="text-secondary mb-0 ps-3 small">
+                        <li class="mb-2"><strong>Windows Server:</strong> Active Directory, DNS, DHCP, Group Policies.</li>
+                        <li class="mb-2"><strong>Linux Server Administration:</strong> (Ubuntu / CentOS / RedHat).</li>
+                        <li class="mb-2">Data Center Software-Defined Networking (<strong>SDN</strong>).</li>
+                        <li>Network Automation & Scripting using <strong>Python & Ansible</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+                <div class="card card-dark h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-bug-fill fs-2 text-gold me-3"></i>
+                        <h5 class="fw-bold text-white mb-0">Troubleshooting & Enterprise Design</h5>
+                    </div>
+                    <ul class="text-secondary mb-0 ps-3 small">
+                        <li class="mb-2">Deep Packet Analysis using <strong>Wireshark</strong>.</li>
+                        <li class="mb-2">Syslog & Event Log Diagnosis for rapid fault isolation.</li>
+                        <li class="mb-2">Designing scalable, zero-downtime <strong>Enterprise Topologies</strong>.</li>
+                        <li>Continuous Monitoring & SLA Management (PRTG, Zabbix).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5" style="background-color: #161616;">
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Featured Engineering <span class="text-gold">Projects</span>
+            </h2>
+            <p class="text-secondary">Real-world commercial deployments and multi-branch infrastructure networks</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card card-dark h-100 overflow-hidden">
+                    <img src="https://placehold.co/600x400/1e1e1e/d4af37?text=Multi-City+Cafe+Link" class="card-img-top" alt="Branch Interconnection">
+                    <div class="card-body p-4">
+                        <span class="badge badge-gold mb-2">Inter-City Branch VPN</span>
+                        <h5 class="fw-bold text-white">Multi-City Cafe & Chain Interconnection</h5>
+                        <p class="text-secondary fs-6">
+                            Connected multiple commercial cafe branches across different cities using site-to-site IPSec VPN tunnels, unified IP-PBX telephony, and centralized database sync.
+                        </p>
+                        <a href="#" class="btn btn-outline-gold btn-sm w-100 mt-2">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-dark h-100 overflow-hidden">
+                    <img src="https://placehold.co/600x400/1e1e1e/d4af37?text=Factory+Infrastructure" class="card-img-top" alt="Factory Network">
+                    <div class="card-body p-4">
+                        <span class="badge badge-gold mb-2">Industrial Infrastructure</span>
+                        <h5 class="fw-bold text-white">Industrial Factory Core Network</h5>
+                        <p class="text-secondary fs-6">
+                            Designed and deployed high-availability core switching, industrial VLANs, and Fortinet Firewall protection for production line servers and machinery.
+                        </p>
+                        <a href="#" class="btn btn-outline-gold btn-sm w-100 mt-2">View Architecture</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-dark h-100 overflow-hidden">
+                    <img src="https://placehold.co/600x400/1e1e1e/d4af37?text=Supermarket+POS+System" class="card-img-top" alt="POS Network">
+                    <div class="card-body p-4">
+                        <span class="badge badge-gold mb-2">Retail & Supermarket POS</span>
+                        <h5 class="fw-bold text-white">Supermarket POS & Cashier Operating Network</h5>
+                        <p class="text-secondary fs-6">
+                            Built redundant LAN network for cashier counters, inventory servers, and barcode systems with zero-latency load balancing and automatic WAN failover.
+                        </p>
+                        <a href="#" class="btn btn-outline-gold btn-sm w-100 mt-2">View Implementation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Contact <span class="text-gold">Engineer</span>
+            </h2>
+            <p class="text-secondary">Have an enterprise network project, commercial setup, or university evaluation? Reach out directly.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-6">
+                <div class="card card-dark p-4 shadow-lg">
+                    <form>
+                        <label class="form-label text-white">Your Name</label>
+                        <input type="text" class="form-control bg-dark text-white border-secondary mb-3" placeholder="Enter your name">
+                        <label class="form-label text-white">Your Email</label>
+                        <input type="email" class="form-control bg-dark text-white border-secondary mb-3" placeholder="name@example.com">
+                        <label class="form-label text-white">Message</label>
+                        <textarea class="form-control bg-dark text-white border-secondary mb-3" rows="4" placeholder="Write your message..."></textarea>
+                        <button type="submit" class="btn btn-gold w-100 py-2">
+                            <i class="bi bi-send me-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <div class="container">
+        <h5 class="fw-bold text-gold">ENG. ABU RAMEZ</h5>
+        <p class="text-secondary mb-1">Telecommunications, Enterprise Networking, Server Administration & Security.</p>
+        <p class="text-gold small mb-2 fs-6">
+            <i class="bi bi-telephone-fill me-1"></i> <a href="tel:+201500066331" class="text-gold text-decoration-none fw-bold">+201500066331</a> | 
+            <i class="bi bi-envelope-fill ms-2 me-1"></i> ramezmohamed0001@gmail.com
+        </p>
+        <p class="text-muted small mb-0">&copy; 2026 ABU RAMEZ. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
